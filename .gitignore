@@ -22,3 +22,25 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 가상환경 (venv)
+.venv/
+venv/
+ENV/
+env/
+
+# Python 캐시
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# 환경변수 파일 (보안 중요!)
+.env
+
+# 에디터 설정
+.vscode/
+.idea/
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
